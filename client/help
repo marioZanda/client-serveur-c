@@ -1,0 +1,12 @@
+Usage: client -c <COMMAND> [-a COMMAND_ARGUMENTS] 
+
+Send client request to server.
+
+  -c,                      precise the command to execute
+  -a, --number-nonblank    add argument to the command request
+  -h                       display this help and exit
+  
+Examples:
+  client -c ls -a "/" List system absolute path contenance. 
+  client -c touch ./newFile Create a file in the server dir        
+
